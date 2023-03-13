@@ -1,0 +1,9 @@
+CREATE TABLE `pedido` (
+  `order_id` int(11) DEFAULT NULL,
+  `order_date` datetime DEFAULT NULL,
+  `product_sku` varchar(255) DEFAULT NULL,
+  `SIZE` varchar(5) DEFAULT NULL,
+  `color` varchar(100) DEFAULT NULL,
+  `quantity` varchar(10) DEFAULT NULL,
+  `price` decimal(10,2) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
